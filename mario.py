@@ -8,5 +8,5 @@ def print_square(size):
 
 
 def print_row(width):
-    print("#" * width)
+    print("▧" * width)
 main()
