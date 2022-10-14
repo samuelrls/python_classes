@@ -8,6 +8,7 @@ def get_int():
         try:
             return int(input("What's x? "))
         except ValueError:
+            print("Please insert a valid integer.")
             pass
 
 
